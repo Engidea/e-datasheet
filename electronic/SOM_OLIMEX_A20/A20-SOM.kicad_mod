@@ -1,10 +1,13 @@
-(module OLIMEX_A20-SOM (layer F.Cu) (tedit 559AA921)
+(module OLIMEX_A20-SOM (layer F.Cu) (tedit 55AE6C69)
   (attr smd)
-  (fp_text reference "" (at 34.825 -20.345) (layer F.Fab) hide
+  (fp_text reference U11 (at 0 -2) (layer F.Fab) hide
     (effects (font (thickness 0.15)))
   )
-  (fp_text value "" (at 34.925 -17.145) (layer F.Fab) hide
+  (fp_text value SOM-A20 (at 0.1 2.5) (layer F.Fab) hide
     (effects (font (thickness 0.15)))
+  )
+  (fp_text user PA-V16X-2X07-LF (at 35.1 -11.6) (layer F.Fab)
+    (effects (font (size 0.4064 0.4064) (thickness 0.0254)))
   )
   (fp_text user "On bottom" (at -33 11) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -76,8 +79,8 @@
   (fp_text user GPIO2 (at 0 20.6) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.2032)))
   )
-  (fp_text user A20-SOM (at 1 -1) (layer F.SilkS)
-    (effects (font (size 5.08 5.08) (thickness 0.4064)))
+  (fp_text user A20-SOM (at -37.2 29.5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.2)))
   )
   (fp_text user 1 (at -39.8 -22.8) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.2032)))
@@ -88,7 +91,7 @@
   (fp_text user GPIO5 (at -28.2 -20.6) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.2032)))
   )
-  (fp_text user "GPH127SMT-02X20(PA-V16X-2X20-LF)" (at -27.88 -19.42) (layer F.Fab)
+  (fp_text user PA-V16X-2X20-LF (at -27.88 -19.42) (layer F.Fab)
     (effects (font (size 0.4064 0.4064) (thickness 0.0254)))
   )
   (fp_text user 1 (at 13.5 26.7) (layer F.SilkS)
