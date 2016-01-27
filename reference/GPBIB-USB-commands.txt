@@ -1,0 +1,26 @@
+Using PROLOGIx and Agilent 53131A
+
+To see the gpib address SWITHon + press the rexcall button
+Normally addres 3, probably
+
+on prologicx use the 
+++help command to see
+++ver
+
+then
+
+++mode 1
+++auto 1
+++addr 3
+
+
+++poll 3
+
+--------------------- comandi AGILENT
+
+Identifica lo strumento
+*IDN?
+
+Per leggere la frequenza
+:READ:FREQ?
+
